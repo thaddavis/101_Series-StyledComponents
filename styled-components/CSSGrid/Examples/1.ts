@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const GridExample1 = styled.div`
-  --grid-column-count-mobile: 1;
-  --grid-column-count-tablet: 3;
+  --grid-column-count-mobile: 3;
+  --grid-column-count-tablet: 2;
   --grid-column-count-desktop: 3;
   --grid-column-gap: ${(props) => props.theme.margins.asEms[2]};
   --grid-row-gap: ${(props) => props.theme.margins.asEms[2]};

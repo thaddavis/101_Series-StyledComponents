@@ -39,6 +39,7 @@ export const CardSection = styled.div`
       img {
         border-radius: 0.5rem 0.5rem 0 0;
         width: 100%;
+        height: auto;
         object-fit: cover;
         // height: max(10rem, 25vh);
         max-height: max(10rem, 30vh);
